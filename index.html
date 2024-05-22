@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Of The Day</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="container py-5 w-75 m-auto">
+      <div class="card text-center px-2 py-5 bg-danger-subtle">
+        <div class="card-body">
+          <h1 class="card-title mb-2">Quote of the Day</h1>
+          <p class="card-subtitle mb-3 text-body-secondary">
+            Press the button below to recieve a random quote!
+          </p>
+          <button
+            class="btn btn-info mb-3 fw-bold px-4 py-2"
+            onclick="generateQuote()"
+          >
+            New Quote
+          </button>
+          <p class="text-danger fw-bold fs-3 mb-3" id="quoteOutput"></p>
+          <p id="quoteAuthor" class="fw-bold fs-3 mb-3"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

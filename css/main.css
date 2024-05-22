@@ -1,0 +1,6 @@
+.card {
+  --bs-card-spacer-x: none;
+  --bs-card-spacer-y: none;
+  --bs-card-title-spacer-y: none;
+  --bs-card-height: 420px;
+}
